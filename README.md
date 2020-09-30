@@ -14,7 +14,7 @@ Set up a Python 3 environment that can run Jupyter notebooks (Jupyter or Jupyter
 * zipfile
 
 The easiest way to do this is to install [anaconda](https://www.anaconda.com/distribution/) and install the libraries in your root environment:
-```conda install pandas matplotlib numpy zipfile```
+```conda install pandas matplotlib numpy```
 
 If you already have a running (ana)conda environment, you can use `env.yml` to set up a separate enviroment:
 ```conda env create -f environment.yml```
@@ -24,7 +24,6 @@ If you already have a running (ana)conda environment, you can use `env.yml` to s
 * pandas
 * matplotlib
 * numpy
-* zipfile
 * jupyter or jupyterlab
 
 ## Usage
